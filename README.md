@@ -7,6 +7,10 @@ This is my complete EFI folder to be used for hackintosh on Dell Inspiron 14 348
 - macOS Ventura
 - macOS Sonoma (You need to generate another SMBIOS for it to work, you can use MacBookPro15,3 for it)
 
+
+![Screenshot 2024-01-09 at 10 36 35 AM](https://github.com/zkluuke/Inspiron-3481-OpenCore-EFI/assets/111476831/9be6047a-add7-4461-afa8-281f44c4d60d)
+
+
 > ### Notebook Specs
 (Marked with *: Most important components for this EFI work like expected)
 - [x] <b>Model</b>: Dell Inspiron 14 3481
