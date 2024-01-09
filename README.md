@@ -46,7 +46,7 @@ HDMI and GPU operating as normal - HDMI is working and GPU has acceleration.
 
 USB ports are already mapped, if it doesn't work as correct, map it yourself [using this app](https://github.com/USBToolBox/tool) and change the "UTBMap.kext" kext.    
 
-HideAuxiliary is **ON**
+HideAuxiliary is **OFF**
 
 <details>
 <summary><strong> Credits </strong></summary>
