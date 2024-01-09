@@ -40,8 +40,11 @@ This is my complete EFI folder to be used for hackintosh on Dell Inspiron 14 348
 </details>
 
 > ### Notes
+**Don't forget to generate your own SMBIOS using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)!**
 HDMI and GPU operating as normal - HDMI is working and GPU has acceleration.   
+
 USB ports are already mapped, if it doesn't work as correct, map it yourself [using this app](https://github.com/USBToolBox/tool) and change the "UTBMap.kext" kext.    
+
 HideAuxiliary is **ON**
 
 <details>
