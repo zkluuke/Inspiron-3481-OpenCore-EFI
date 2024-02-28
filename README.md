@@ -1,7 +1,8 @@
 # Dell Inspiron 3481 OpenCore/Hackintosh EFI
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.9.7-red.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
 
-This is my complete EFI folder to be used for hackintosh on Dell Inspiron 14 3481 that can be used with the following macOS Versions:
+Complete EFI folder to be used for hackintosh on Dell Inspiron 14 3481!
+Can be used with the following macOS versions:
 - macOS Big Sur
 - macOS Monterey
 - macOS Ventura
@@ -12,7 +13,7 @@ This is my complete EFI folder to be used for hackintosh on Dell Inspiron 14 348
 
 
 > ### Notebook Specs
-(Marked with *: Most important components for this EFI work like expected)
+(*: Most important components for this EFI work like expected)
 - [x] <b>Model</b>: Dell Inspiron 14 3481
 - [x] <b>CPU</b>: Intel Core i3 8130U @ 3.40GHz Kaby Lake *
 - [x] <b>iGPU</b>: Intel UHD Graphics 620 @ 1GB *
@@ -48,9 +49,9 @@ This is my complete EFI folder to be used for hackintosh on Dell Inspiron 14 348
 
 HDMI and GPU operating as normal - HDMI is working and GPU has acceleration.   
 
-USB ports are already mapped, if it doesn't work as correct, map it yourself [using this app](https://github.com/USBToolBox/tool) and change the "UTBMap.kext" kext.    
+USB ports are already mapped, if it doesn't work as expected, map it yourself [using this app](https://github.com/USBToolBox/tool) and change the "UTBMap.kext" kext.    
 
-HideAuxiliary is **OFF**
+HideAuxiliary is **ON**
 
 <details>
 <summary><strong> Credits </strong></summary>
