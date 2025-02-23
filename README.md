@@ -1,8 +1,8 @@
 # Dell Inspiron 3481 OpenCore/Hackintosh EFI
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.9.7-red.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
 
-Complete EFI folder to be used for hackintosh on Dell Inspiron 14 3481!
-Can be used with the following macOS versions:
+Complete EFI folder to hackintosh on the Dell Inspiron 14 3481
+Tested with the macOS versions:
 - macOS Big Sur
 - macOS Monterey
 - macOS Ventura
@@ -13,14 +13,14 @@ Can be used with the following macOS versions:
 
 
 > ### Notebook Specs
-(*: Most important components for this EFI work like expected)
+(*: components for this EFI work like expected)
 - [x] <b>Model</b>: Dell Inspiron 14 3481
-- [x] <b>CPU</b>: Intel Core i3 8130U @ 3.40GHz Kaby Lake *
-- [x] <b>iGPU</b>: Intel UHD Graphics 620 @ 1GB *
+- [x] <b>CPU</b>: Intel Core i3 8130U @ 3.40GHz **Kaby Lake** *
+- [x] <b>iGPU</b>: Intel UHD Graphics 620 *
 - [x] <b>RAM</b>: 16GB DDR4 2666Mhz
 - [x] <b>Storage</b>: 512GB Western Digital SSD
 - [x] <b>Audio</b>: Realtek ALC256 HD Audio Controller *
-- [x] <b>Wi-Fi</b>: Qualcomm QCA9377 Wireless Adapter
+- [x] <b>Wi-Fi</b>: Qualcomm QCA9377 Wireless Adapter (Doesn't work)
 - [x] <b>Bluetooth</b>: Qualcomm QCA9377 Bluetooth *
 - [x] <b>Ethernet</b>: Realtek RTL8139/810x Fast Ethernet Adapter *
 - [x] <b>Display</b>: 1366x768 / 60 Hz
@@ -28,8 +28,7 @@ Can be used with the following macOS versions:
 <details>
 <summary><strong> Not Working </strong></summary>
 <br>
-| Wi-Fi 
-    
+| Wi-Fi   
 | Internal Screen Brightness   
 | Bluetooth
 
@@ -40,14 +39,14 @@ Can be used with the following macOS versions:
 <br>
 
 - Bluetooth doesn't work on macOS Ventura and Sonoma
-- Wake from sleep just works sometimes and doesn't work on HDMI at all
+- Wake from sleep only works sometimes and doesn't work on HDMI at all
 
 </details>
 
 > ### Notes
 **Don't forget to generate your own SMBIOS using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)!**
 
-HDMI and GPU operating as normal - HDMI is working and GPU has acceleration.   
+HDMI and GPU as normal - HDMI is working and GPU has acceleration.   
 
 USB ports are already mapped, if it doesn't work as expected, map it yourself [using this app](https://github.com/USBToolBox/tool) and change the "UTBMap.kext" kext.    
 
